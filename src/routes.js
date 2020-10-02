@@ -4,6 +4,7 @@ import About from "./pages/about";
 import Contact from "./pages/contact";
 import Landing from "./pages/landing";
 import Portfolio from "./pages/portfolio";
+import Resume from "./pages/resume";
 import NotFound from "./pages/notfound";
 
 class Routes extends React.Component {
@@ -21,6 +22,9 @@ class Routes extends React.Component {
         </Route>
         <Route exact path="/portfolio">
           <Portfolio />
+        </Route>
+        <Route>
+          <Resume />
         </Route>
         <Route>
           <NotFound />

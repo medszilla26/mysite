@@ -1,8 +1,13 @@
-import React from "react";
+import React, { Component } from "react";
+import { Container } from "react-bootstrap";
 
-class About extends React.Component {
+class About extends Component {
   render() {
-    return <h1>This is the About Page</h1>;
+    return (
+      <Container>
+        <h1>This is the About Page</h1>
+      </Container>
+    );
   }
 }
 export default About;

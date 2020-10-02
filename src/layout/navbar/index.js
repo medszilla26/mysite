@@ -1,11 +1,12 @@
 import React, { Component } from "react";
 import { Navbar, Nav } from "react-bootstrap";
+import "./style.css";
 
 class Navigation extends Component {
   render() {
     return (
       <Navbar expand="lg">
-        <Navbar.Brand>Test</Navbar.Brand>
+        <Navbar.Brand href="/">Pablo Hernandez Jr</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
