@@ -1,11 +1,14 @@
 import React from "react";
-import "./App.css";
+import Routes from "./routes";
+import Navigation from "./layout/navbar";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">Hello</header>
+    <div>
+      <Navigation />
+      <Routes />
     </div>
   );
 }
