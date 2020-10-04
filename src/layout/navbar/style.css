@@ -1,7 +1,18 @@
 .navbar-toggler-icon {
-  background-image: url(https://i.stack.imgur.com/mSXoO.png) !important;
+  color: #78ec9d !important;
 }
 
 .navbar {
-  background-color: blueviolet;
+  background-color: #212529;
+}
+
+.nav-link {
+  color: white !important;
+}
+.nav-link:hover {
+  color: #78ec9d !important;
+}
+.logo-navbar {
+  width: 100px;
+  height: auto;
 }
