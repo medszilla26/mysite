@@ -9,11 +9,11 @@ footer {
   bottom: 0;
   overflow: hidden;
   width: 100%;
-  background-color: red;
+  background-color: #212529;
 }
 
 .footer-bottom {
-  background-color: #212529;
+  background-color: #070707;
   height: 20px;
 }
 
