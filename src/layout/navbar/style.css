@@ -1,5 +1,6 @@
-.navbar-toggler-icon {
-  color: #78ec9d !important;
+.menu-button {
+  color: #78ec9d;
+  font-size: 30px;
 }
 
 .navbar {

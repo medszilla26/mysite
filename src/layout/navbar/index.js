@@ -12,7 +12,7 @@ class Navigation extends Component {
           <img className="logo-navbar" src={pablologo} alt="branding logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
-          <FontAwesomeIcon icon={["fas", "times"]} size="2x" />
+          <FontAwesomeIcon icon={["fas", "bars"]} className="menu-button" />
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
