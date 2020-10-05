@@ -1,6 +1,7 @@
 .App {
   background-color: whitesmoke;
-  min-height: 400px;
-  margin-bottom: 100px;
+  min-height: 100vh;
+  padding-bottom: 155px;
+  position: relative;
   overflow: hidden;
 }
