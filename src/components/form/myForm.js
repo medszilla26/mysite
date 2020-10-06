@@ -1,4 +1,5 @@
 import React from "react";
+import "../form/style.css";
 import { Form, Button } from "react-bootstrap";
 
 export default class MyForm extends React.Component {
@@ -18,13 +19,30 @@ export default class MyForm extends React.Component {
         action="https://formspree.io/f/xdopaegp"
         method="POST"
       >
-        <label>Name</label>
-        <input type="text" name="name" />
-        <label>Email:</label>
-        <input type="email" name="email" />
-        <label>Message:</label>
-        <input type="text" name="message" />
-        {status === "SUCCESS" ? <p>Thanks!</p> : <Button>Submit</Button>}
+        <Form.Group controlId="form-name-input">
+          <Form.Label>Name</Form.Label>
+          <Form.Control type="text" name="name" placeholder="Full Name" />
+        </Form.Group>
+        <Form.Group controlId="form-email-input">
+          <Form.Label>Email</Form.Label>
+          <Form.Control type="email" name="email" placeholder="Your Email" />
+        </Form.Group>
+        <Form.Group controlId="form-textarea-message">
+          <Form.Label>Message</Form.Label>
+          <Form.Control
+            as="textarea"
+            type="text"
+            name="message"
+            rows="8"
+            placeholder="Questions, Comments, Possible Job Offer?"
+          />
+        </Form.Group>
+
+        {status === "SUCCESS" ? (
+          <p>Thanks!</p>
+        ) : (
+          <Button variant="success">Submit</Button>
+        )}
         {status === "ERROR" && <p>Ooops! There was an error.</p>}
       </Form>
     );

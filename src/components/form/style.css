@@ -1,0 +1,15 @@
+#form-textarea-message {
+  width: 375px;
+}
+#form-email-input,
+#form-name-input {
+  width: 300px;
+}
+#form-textarea-message,
+#form-email-input,
+#form-name-input {
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.12);
+  border: none;
+}
