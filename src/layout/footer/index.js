@@ -2,43 +2,39 @@ import React from "react";
 import "./style.css";
 import { Col, Row } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import pablologo from "../../assets/branding/pablo-logo.png";
 
 function Footer() {
   return (
     <footer>
       <div className="wrap">
         <Row>
-          <Col md={4} sm={8}>
-            <img className="logo-footer" src={pablologo} alt="branding logo" />
+          <Col>
+            <div className="social-section">
+              <a href="https://github.com/medszilla26" target="blank">
+                <FontAwesomeIcon icon={["fab", "github"]} className="ico" />
+              </a>
+              <a href="https://www.linkedin.com/in/pablohdzjr/" target="blank">
+                <FontAwesomeIcon icon={["fab", "linkedin"]} className="ico" />
+              </a>
+              <a href="https://www.instagram.com/medszilla26" target="blank">
+                <FontAwesomeIcon icon={["fab", "instagram"]} className="ico" />
+              </a>
+            </div>
           </Col>
-          <Col md={4} sm={8} className="social-list">
-            <ul className="list-unstyled social-icons">
-              <li>
-                <FontAwesomeIcon
-                  icon={["fab", "github"]}
-                  size="3x"
-                  className="ico"
-                />
-              </li>
-              <li>
-                <FontAwesomeIcon
-                  icon={["fab", "linkedin"]}
-                  size="3x"
-                  className="ico"
-                />
-              </li>
-              <li>
-                <FontAwesomeIcon
-                  icon={["fab", "instagram"]}
-                  size="3x"
-                  className="ico"
-                />
-              </li>
-            </ul>
-          </Col>
-          <Col md={3} sm={8} className="location">
-            <h5>Houston, Tx</h5>
+        </Row>
+        <Row>
+          <Col>
+            <p>
+              <a href="mailto: pablohdzjr@gmail.com" className="contact-info">
+                pablohdzjr@gmail.com
+              </a>
+              &nbsp;|&nbsp;
+              <a href="tel: 8329041663" className="contact-info">
+                (832) 904-1663
+              </a>
+              &nbsp;|&nbsp;
+              <span className="state-info">Houston, TX</span>
+            </p>
           </Col>
         </Row>
         <Row>

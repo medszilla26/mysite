@@ -7,8 +7,13 @@ footer {
 .wrap {
   text-align: center;
   width: 100%;
-  background-color: #212529;
   color: whitesmoke;
+  background: rgb(62, 68, 75);
+  background: linear-gradient(
+    141deg,
+    rgba(62, 68, 75, 1) 0%,
+    rgba(7, 7, 7, 1) 100%
+  );
 }
 
 .footer-bottom {
@@ -20,26 +25,23 @@ footer {
   font-weight: normal;
   font-size: small;
 }
-.logo-footer {
-  width: 75px;
-  height: auto;
+.social-section {
   align-items: center;
-  margin: 30px;
-}
-.social-icons {
-  display: flex;
-  align-items: center;
-}
-.social-list {
-  margin: 30px;
-}
-.location {
-  margin: 30px;
-  align-items: center;
-}
-h5 {
-  padding-top: 30px;
+  padding: 30px;
+  height: 100px;
 }
 .ico {
-  padding-left: 20px;
+  margin: 8px;
+  font-size: 38px;
+  color: white;
+}
+.contact-info,
+.state-info {
+  font-size: 14px;
+  color: white;
+}
+.ico:hover,
+.contact-info:hover {
+  color: #78ec9d;
+  text-decoration: none;
 }

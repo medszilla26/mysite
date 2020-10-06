@@ -1,12 +1,15 @@
 import React, { Component } from "react";
-import { Container } from "react-bootstrap";
+import { Jumbotron } from "react-bootstrap";
+import pablologo from "../assets/branding/pablo-logo.png";
 
 class Landing extends Component {
   render() {
     return (
-      <Container>
-        <h1>This is the Landing Page</h1>
-      </Container>
+      <div className="landing-background">
+        <Jumbotron fluid className="landing">
+          <img className="landing-logo" src={pablologo} alt="branding logo" />
+        </Jumbotron>
+      </div>
     );
   }
 }

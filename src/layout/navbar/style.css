@@ -4,7 +4,12 @@
 }
 
 .navbar {
-  background-color: #212529;
+  background: rgb(62, 68, 75);
+  background: linear-gradient(
+    141deg,
+    rgba(62, 68, 75, 1) 0%,
+    rgba(7, 7, 7, 1) 100%
+  );
 }
 
 .nav-link {
