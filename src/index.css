@@ -1,7 +1,15 @@
 .App {
-  background-color: white;
+  background-color: #070707;
   min-height: 100vh;
   padding-bottom: 100px;
-  position: relative;
   overflow: hidden;
+}
+.landing-logo {
+  width: 200px;
+}
+.landing {
+  text-align: center;
+  background-color: #070707 !important;
+  margin: 100px;
+  padding-top: 50px;
 }

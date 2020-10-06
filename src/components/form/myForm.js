@@ -1,5 +1,5 @@
 import React from "react";
-import { Form } from "react-bootstrap";
+import { Form, Button } from "react-bootstrap";
 
 export default class MyForm extends React.Component {
   constructor(props) {
@@ -24,7 +24,7 @@ export default class MyForm extends React.Component {
         <input type="email" name="email" />
         <label>Message:</label>
         <input type="text" name="message" />
-        {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
+        {status === "SUCCESS" ? <p>Thanks!</p> : <Button>Submit</Button>}
         {status === "ERROR" && <p>Ooops! There was an error.</p>}
       </Form>
     );
