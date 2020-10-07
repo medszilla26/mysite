@@ -23,7 +23,7 @@ class Routes extends React.Component {
         <Route exact path="/portfolio">
           <Portfolio />
         </Route>
-        <Route>
+        <Route exact path="/resume">
           <Resume />
         </Route>
         <Route>
