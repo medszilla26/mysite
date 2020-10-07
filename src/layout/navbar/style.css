@@ -14,6 +14,8 @@
 
 .nav-link {
   color: white !important;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
 }
 .nav-link:hover {
   color: #78ec9d !important;
@@ -21,4 +23,10 @@
 .logo-navbar {
   width: 100px;
   height: auto;
+}
+.brand-name {
+  color: #78ec9d;
+  font-family: "Lato", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
 }

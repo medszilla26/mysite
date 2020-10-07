@@ -10,7 +10,7 @@ class Navigation extends Component {
       <Navbar expand="lg">
         <Navbar.Brand href="/">
           <img className="logo-navbar" src={pablologo} alt="branding logo" />
-          <span>Pablo Hernandez</span>
+          <span className="brand-name">&nbsp; Pablo Hernandez</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <FontAwesomeIcon icon={["fas", "bars"]} className="menu-button" />
