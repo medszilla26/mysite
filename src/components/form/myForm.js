@@ -1,6 +1,6 @@
 import React from "react";
 import "../form/style.css";
-import { Form, Button } from "react-bootstrap";
+import { Form } from "react-bootstrap";
 
 export default class MyForm extends React.Component {
   constructor(props) {
@@ -20,12 +20,16 @@ export default class MyForm extends React.Component {
         method="POST"
       >
         <Form.Group controlId="form-name-input">
-          <Form.Label>Name</Form.Label>
-          <Form.Control type="text" name="name" placeholder="Full Name" />
+          <Form.Label>Full Name</Form.Label>
+          <Form.Control type="text" name="name" placeholder="First and Last" />
         </Form.Group>
         <Form.Group controlId="form-email-input">
-          <Form.Label>Email</Form.Label>
-          <Form.Control type="email" name="email" placeholder="Your Email" />
+          <Form.Label>Email Address</Form.Label>
+          <Form.Control
+            type="email"
+            name="email"
+            placeholder="email@domain.com"
+          />
         </Form.Group>
         <Form.Group controlId="form-textarea-message">
           <Form.Label>Message</Form.Label>
@@ -39,11 +43,15 @@ export default class MyForm extends React.Component {
         </Form.Group>
 
         {status === "SUCCESS" ? (
-          <p>Thanks!</p>
+          <p className="thankyou-message">Thanks for your submission!</p>
         ) : (
-          <Button variant="success">Submit</Button>
+          <button type="submit" className="submit-btn">
+            <span>SEND</span>
+          </button>
         )}
-        {status === "ERROR" && <p>Ooops! There was an error.</p>}
+        {status === "ERROR" && (
+          <p className="error-message">Oops, something wasn't right</p>
+        )}
       </Form>
     );
   }

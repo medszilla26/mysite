@@ -1,5 +1,6 @@
+/* FORM */
 #form-textarea-message {
-  width: 375px;
+  width: 350px;
 }
 #form-email-input,
 #form-name-input {
@@ -8,8 +9,46 @@
 #form-textarea-message,
 #form-email-input,
 #form-name-input {
-  padding: 10px;
+  padding: 5px;
   border-radius: 5px;
   box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.12);
   border: none;
+}
+
+/* BUTTON */
+.submit-btn {
+  float: right;
+  width: 100px;
+  height: 40px;
+  background: #78ec9d;
+  border: 1.5px solid #60bd7e;
+  border-radius: 5px;
+  outline: none;
+  transition: 1s ease-in-out;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.12);
+}
+.submit-btn:hover {
+  transition: 1s ease-in-out;
+  background: #60bd7e;
+}
+.submit-btn span {
+  color: #24472f;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* ERROR */
+.error-message {
+  color: #ff6347;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px 0 0 20px;
+}
+
+/* THANKS */
+.thankyou-message {
+  color: #54a56e;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px 0 0 20px;
 }
