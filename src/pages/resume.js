@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import Skills from "../components/progressBar";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Container, Row, Col } from "react-bootstrap";
 
 class Resume extends Component {
@@ -18,11 +20,30 @@ class Resume extends Component {
         </Row>
         <Row>
           <Col>
-            <div>
-              <ul>
-                <li>Linkedin</li>
-                <li>GitHub</li>
+            <div className="resume-socials">
+              <ul className="list-unstyled">
+                <FontAwesomeIcon
+                  icon={["fab", "linkedin-in"]}
+                  className="resume-ico"
+                />
+                <li>
+                  <span>linkedin.com/in/pablohdzjr</span>
+                </li>
+                <FontAwesomeIcon
+                  icon={["fab", "github-alt"]}
+                  className="resume-ico"
+                />
+                <li>
+                  <span>github.com/medszilla26</span>
+                </li>
               </ul>
+            </div>
+            <div className="resume-skills">
+              <h6>SKILLS</h6>
+              <hr />
+              <br />
+              <Skills skill="HTML/CSS" now={85} />
+              <Skills skill="HTML/CSS" now={85} />
             </div>
           </Col>
           <Col>More Detailed stuff in here</Col>
