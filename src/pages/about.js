@@ -6,7 +6,7 @@ class About extends Component {
     return (
       <Container>
         <Row className="justify-content-lg-center">
-          <Col lg="6">
+          <Col lg={{ span: 6, order: 1 }} xs={{ span: 12, order: 2 }}>
             <div className="aboutme">
               <h1>Pablo Hernandez</h1>
               <h6>Front End Developer</h6>
@@ -19,7 +19,9 @@ class About extends Component {
               </p>
             </div>
           </Col>
-          <Col lg="6">Image goes here</Col>
+          <Col lg={{ span: 6, order: 2 }} xs={{ span: 12, order: 1 }}>
+            Image goes here
+          </Col>
         </Row>
       </Container>
     );

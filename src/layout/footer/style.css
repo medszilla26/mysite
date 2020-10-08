@@ -8,7 +8,7 @@ footer {
 .wrap {
   text-align: center;
   width: 100%;
-  color: whitesmoke;
+  color: #515151;
   background: rgb(62, 68, 75);
   background: linear-gradient(
     141deg,
@@ -34,12 +34,12 @@ footer {
 .ico {
   margin: 8px;
   font-size: 38px;
-  color: white;
+  color: #9c9c9c;
 }
 .contact-info,
 .state-info {
   font-size: 14px;
-  color: white;
+  color: #9c9c9c;
 }
 .ico:hover,
 .contact-info:hover {
