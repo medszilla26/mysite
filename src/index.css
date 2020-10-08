@@ -10,8 +10,9 @@ font-family: 'Open Sans', sans-serif; */
   overflow: hidden;
 }
 .contact,
-.aboutme {
-  margin-top: 40px;
+.aboutme,
+.portrait-photo {
+  margin-top: 80px;
 }
 
 .landing-logo {
@@ -35,6 +36,17 @@ p {
 }
 .aboutme > h6 {
   color: gray;
+}
+
+.portrait-photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: auto;
+  padding: 5px 5px 30px;
+  border: solid 1px #efefef;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.12);
 }
 
 /* CONTACT PAGE */

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import portrait from "../assets/photos/pablo-self.png";
 import { Container, Row, Col } from "react-bootstrap";
 
 class About extends Component {
@@ -20,7 +21,11 @@ class About extends Component {
             </div>
           </Col>
           <Col lg={{ span: 6, order: 2 }} xs={{ span: 12, order: 1 }}>
-            Image goes here
+            <img
+              className="portrait-photo"
+              src={portrait}
+              alt="self portrait of Pablo"
+            />
           </Col>
         </Row>
       </Container>
