@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "../progressBar/style.css";
-import { ProgressBar } from "react-bootstrap";
 
 class Skills extends Component {
   render() {
@@ -10,7 +9,7 @@ class Skills extends Component {
           {this.props.skill}
           {""}
         </div>
-        <ProgressBar className="skill-bar" now={this.props.now} />
+        <progress value={this.props.value} max="100" />
       </div>
     );
   }

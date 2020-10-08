@@ -42,8 +42,10 @@ class Resume extends Component {
               <h6>SKILLS</h6>
               <hr />
               <br />
-              <Skills skill="HTML/CSS" now={85} />
-              <Skills skill="HTML/CSS" now={85} />
+              <div className="skill-container">
+                <Skills skill="HTML/CSS" value={85} />
+                <Skills skill="Javascript" value={75} />
+              </div>
             </div>
           </Col>
           <Col>More Detailed stuff in here</Col>

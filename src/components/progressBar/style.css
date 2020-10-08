@@ -1,6 +1,19 @@
 .skill-name {
   font-size: 14px;
+  font-family: "Open Sans", sans-serif;
 }
-.skill-bar {
-  width: 40%;
+
+progress {
+  border-radius: 7px;
+  width: 30%;
+  height: 15px;
+}
+progress::-webkit-progress-bar {
+  background-color: #a9b1ab;
+}
+progress::-webkit-progress-value {
+  background-color: #488e5e;
+}
+progress::-moz-progress-bar {
+  /* style rules */
 }
