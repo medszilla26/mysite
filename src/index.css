@@ -19,10 +19,15 @@ font-family: 'Open Sans', sans-serif; */
   padding-top: 50px;
 }
 
-/* CONTACT PAGE */
-.contact {
-  margin-top: 30px;
+.contact,
+.aboutme {
+  margin-top: 40px;
 }
+
+/* ABOUT PAGE */
+.aboutme
+
+/* CONTACT PAGE */
 .contact > h2 {
   font-family: "Lato", sans-serif;
   font-size: 40px;
@@ -41,7 +46,6 @@ font-family: 'Open Sans', sans-serif; */
   height: 120px;
   margin-bottom: 25px;
 }
-
 .resume-name > h1 {
   color: #305e3f;
   font-family: "Lato", sans-serif;
