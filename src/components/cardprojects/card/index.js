@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./style.css";
 import { Card } from "react-bootstrap";
 
-class Project extends Component {
+class CardProject extends Component {
   render() {
     return (
       <Card>
@@ -20,17 +20,19 @@ class Project extends Component {
             {this.props.text}
             {""}
           </Card.Text>
-          <a href={this.props.github} target="blank">
-            <button className="github-btn">github</button>
-          </a>
-          <a href={this.props.live} target="blank">
-            <button className="live-btn" type="button">
-              live
-            </button>
-          </a>
+          <div className="card-buttons">
+            <a href={this.props.github} target="blank" className="link-text">
+              <button className="link-btn">GITHUB</button>
+            </a>
+            <a href={this.props.live} target="blank">
+              <button className="link-btn" type="button">
+                LIVE
+              </button>
+            </a>
+          </div>
         </Card.Body>
       </Card>
     );
   }
 }
-export default Project;
+export default CardProject;
