@@ -6,7 +6,7 @@ class About extends Component {
   render() {
     return (
       <Container>
-        <Row className="justify-content-lg-center">
+        <Row className="justify-content-sm-center">
           <Col lg={{ span: 6, order: 1 }} xs={{ span: 12, order: 2 }}>
             <div className="aboutme">
               <h1>Pablo Hernandez</h1>
