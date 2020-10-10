@@ -3,24 +3,23 @@
 }
 
 .link-btn {
-  background: #78ec9d;
-  border: 1.5px solid #60bd7e;
-  width: 75px;
-  height: 30px;
-  padding: 0;
-  margin: 5px;
+  background: #60bd7e;
+  color: white;
+  transition: 0.25s ease;
+  border: none;
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 4px;
   outline: none;
-  border-radius: 5px;
-  transition: 1s ease-in-out;
-  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.12);
 }
 
 .link-btn:hover {
-  background: #60bd7e;
-  transition: 1s ease-in-out;
+  color: #60bd7e;
+  background-color: transparent;
+  box-shadow: 0 6px 18px 0 rgba(0, 0, 0, 0.12);
+  border: 0.5px solid transparent;
 }
 .link-text {
-  color: #24472f;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-weight: 700;
