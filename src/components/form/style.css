@@ -3,12 +3,14 @@
   width: 350px;
 }
 #form-email-input,
-#form-name-input {
+#form-name-input,
+#form-subject-input {
   width: 300px;
 }
 #form-textarea-message,
 #form-email-input,
-#form-name-input {
+#form-name-input,
+#form-subject-input {
   font-family: "Lato", sans-serif;
   padding: 10px;
   border-radius: 5px;

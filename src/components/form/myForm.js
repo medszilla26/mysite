@@ -31,6 +31,10 @@ export default class MyForm extends React.Component {
             placeholder="email@domain.com"
           />
         </Form.Group>
+        <Form.Group controlId="form-subject-input">
+          <Form.Label>Subject</Form.Label>
+          <Form.Control type="text" name="subject" placeholder="Subject" />
+        </Form.Group>
         <Form.Group controlId="form-textarea-message">
           <Form.Label>Message</Form.Label>
           <Form.Control

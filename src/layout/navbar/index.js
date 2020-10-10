@@ -14,11 +14,11 @@ class Navigation extends Component {
           </a>
         </div>
         <Navbar expand="lg">
-          <Navbar.Toggle aria-controls="basic-navbar-nav">
+          <Navbar.Toggle aria-controls="responsive-navbar-nav">
             <FontAwesomeIcon icon={["fas", "bars"]} className="menu-button" />
           </Navbar.Toggle>
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="mr-auto">
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className="justify-content-center">
               <Nav.Link href="/about">About</Nav.Link>
               <Nav.Link href="/portfolio">My Work</Nav.Link>
               <Nav.Link href="/contact">Contact Me</Nav.Link>
