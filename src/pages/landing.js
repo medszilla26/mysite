@@ -5,7 +5,7 @@ import pablologo from "../assets/branding/pablo-logo.png";
 class Landing extends Component {
   render() {
     return (
-      <div className="landing-background">
+      <div className="landing-container">
         <Jumbotron fluid className="landing">
           <img className="landing-logo" src={pablologo} alt="branding logo" />
         </Jumbotron>

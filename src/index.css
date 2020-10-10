@@ -1,13 +1,17 @@
 /* FONTS USED
 font-family: 'Lato', sans-serif;
 font-family: 'Open Sans', sans-serif; */
-.App {
-  /* background-color: #070707; */
-  background-color: #f2f2f2;
-  min-height: 100vh;
+
+/* GLOBAL */
+.landing-container,
+.page-container {
   max-width: 100%;
-  padding-bottom: 100px;
+  min-height: 100vh;
   overflow: hidden;
+}
+.page-container {
+  background-color: #f2f2f2;
+  padding-bottom: 150px;
 }
 .contact,
 .aboutme,
@@ -16,20 +20,22 @@ font-family: 'Open Sans', sans-serif; */
   margin-top: 80px;
 }
 
-.landing-logo {
-  width: 200px;
+/* LANDING PAGE */
+.landing-container {
+  background-color: #070707;
 }
 .landing {
+  margin-top: 180px;
   text-align: center;
   background-color: #070707 !important;
-  margin: 100px;
-  padding-top: 50px;
+}
+.landing-logo {
+  width: 200px;
 }
 
 /* ABOUT PAGE */
 .aboutme > h1 {
   font-family: "Lato", sans-serif;
-  margin: 0;
 }
 .aboutme > h6,
 p {
@@ -38,7 +44,6 @@ p {
 .aboutme > h6 {
   color: gray;
 }
-
 .portrait-photo {
   display: block;
   margin-left: auto;
@@ -50,11 +55,18 @@ p {
   box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.12);
 }
 
+/* PORTFOLIO PAGE */
+.portfolio > h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 40px;
+  text-align: center;
+  margin: 40px 0 20px;
+}
 /* CONTACT PAGE */
 .contact > h2 {
   font-family: "Lato", sans-serif;
   font-size: 40px;
-  margin: 40px 0 0;
+  margin-bottom: 0;
 }
 .contact > p {
   font-family: "Open Sans", sans-serif;

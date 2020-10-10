@@ -5,13 +5,16 @@ import Projects from "../components/cardprojects";
 class Portfolio extends Component {
   render() {
     return (
-      <Container>
-        <div className="portfolio">
-          <CardColumns>
-            <Projects />
-          </CardColumns>
-        </div>
-      </Container>
+      <div className="page-container">
+        <Container>
+          <div className="portfolio">
+            <h2>Projects</h2>
+            <CardColumns>
+              <Projects />
+            </CardColumns>
+          </div>
+        </Container>
+      </div>
     );
   }
 }

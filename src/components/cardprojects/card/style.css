@@ -25,3 +25,19 @@
   font-size: 16px;
   font-weight: 700;
 }
+.card {
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.12);
+}
+.card-title {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+}
+.project-image {
+  padding: 5px;
+}
+.card-text {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}

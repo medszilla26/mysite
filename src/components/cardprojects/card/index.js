@@ -6,11 +6,7 @@ class CardProject extends Component {
   render() {
     return (
       <Card>
-        <Card.Img
-          variant="top"
-          src={this.props.src}
-          className="project-image"
-        />
+        <Card.Img src={this.props.src} className="project-image" />
         <Card.Body>
           <Card.Title>
             {this.props.title}
