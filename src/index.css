@@ -4,12 +4,14 @@ font-family: 'Open Sans', sans-serif; */
 
 /* GLOBAL */
 .landing-container,
-.page-container {
+.page-container,
+.notfound-container {
   max-width: 100%;
   min-height: 100vh;
   overflow: hidden;
 }
-.page-container {
+.page-container,
+.notfound-container {
   background-color: #f2f2f2;
   padding-bottom: 150px;
 }
@@ -25,9 +27,9 @@ font-family: 'Open Sans', sans-serif; */
   background-color: #070707;
 }
 .landing {
+  background-color: #070707 !important;
   margin-top: 150px;
   text-align: center;
-  background-color: #070707 !important;
 }
 .landing-logo {
   width: 275px;
@@ -35,6 +37,22 @@ font-family: 'Open Sans', sans-serif; */
 .landing-logo:hover {
   -webkit-filter: blur(2px);
   filter: blur(2px);
+}
+
+/* NOT FOUND PAGE */
+.notfound {
+  background-color: #f2f2f2 !important;
+  margin-top: 150px;
+  text-align: center;
+}
+.notfound > p {
+  font-family: "Open Sans", sans-serif;
+  color: #ff6347;
+}
+.nf-ico {
+  color: #ff6347;
+  font-size: 50px;
+  margin-bottom: 15px;
 }
 
 /* ABOUT PAGE */
