@@ -8,7 +8,7 @@ class NotFound extends Component {
       <div className="notfound-container">
         <Jumbotron className="notfound">
           <FontAwesomeIcon icon={["fas", "ban"]} className="nf-ico" />
-          <p>ERROR 404: The Page You Requested Cannot Be Found</p>
+          <p>ERROR 404: The Page You Requested Cannot Be Found!</p>
         </Jumbotron>
       </div>
     );
