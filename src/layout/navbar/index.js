@@ -7,23 +7,26 @@ import pablologo from "../../assets/branding/pablo-logo.png";
 class Navigation extends Component {
   render() {
     return (
-      <Navbar expand="lg">
-        <Navbar.Brand href="/">
-          <img className="logo-navbar" src={pablologo} alt="branding logo" />
-          <span className="brand-name">&nbsp; Pablo Hernandez</span>
-        </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav">
-          <FontAwesomeIcon icon={["fas", "bars"]} className="menu-button" />
-        </Navbar.Toggle>
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ml-auto">
-            <Nav.Link href="/about">About</Nav.Link>
-            <Nav.Link href="/portfolio">My Work</Nav.Link>
-            <Nav.Link href="/contact">Contact Me</Nav.Link>
-            <Nav.Link href="/resume">Resume</Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Navbar>
+      <div>
+        <div className="logo-box">
+          <a href="/" className="logo-navbar">
+            <img className="logo-navbar" src={pablologo} alt="branding logo" />
+          </a>
+        </div>
+        <Navbar expand="lg">
+          <Navbar.Toggle aria-controls="basic-navbar-nav">
+            <FontAwesomeIcon icon={["fas", "bars"]} className="menu-button" />
+          </Navbar.Toggle>
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="mr-auto">
+              <Nav.Link href="/about">About</Nav.Link>
+              <Nav.Link href="/portfolio">My Work</Nav.Link>
+              <Nav.Link href="/contact">Contact Me</Nav.Link>
+              <Nav.Link href="/resume">Resume</Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Navbar>
+      </div>
     );
   }
 }

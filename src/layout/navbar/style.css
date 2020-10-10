@@ -1,32 +1,40 @@
 .menu-button {
   color: #78ec9d;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .navbar {
-  background: rgb(62, 68, 75);
-  background: linear-gradient(
-    141deg,
-    rgba(62, 68, 75, 1) 0%,
-    rgba(7, 7, 7, 1) 100%
-  );
+  background: #070707;
 }
 
 .nav-link {
   color: #d7d7d7 !important;
   font-family: "Lato", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
 }
 .nav-link:hover {
   color: #78ec9d !important;
 }
 .logo-navbar {
-  width: 100px;
+  width: 90px;
   height: auto;
+  margin: 10px 4px 10px;
 }
 .brand-name {
   color: #78ec9d;
   font-family: "Lato", sans-serif;
   font-size: 22px;
   font-weight: 700;
+}
+.logo-box {
+  height: 110px;
+  background: rgb(62, 68, 75);
+  background: linear-gradient(
+    141deg,
+    rgba(62, 68, 75, 1) 0%,
+    rgba(7, 7, 7, 1) 100%
+  );
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
 }
