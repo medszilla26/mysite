@@ -18,7 +18,7 @@ class Navigation extends Component {
             <FontAwesomeIcon icon={["fas", "bars"]} className="menu-button" />
           </Navbar.Toggle>
           <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="justify-content-center">
+            <Nav>
               <Nav.Link href="/about">About</Nav.Link>
               <Nav.Link href="/portfolio">My Work</Nav.Link>
               <Nav.Link href="/contact">Contact Me</Nav.Link>

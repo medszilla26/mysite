@@ -31,6 +31,15 @@ font-family: 'Open Sans', sans-serif; */
   margin-top: 150px;
   text-align: center;
 }
+.landing > h2 {
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  color: #60bd7e;
+}
+.landing > hr {
+  border: 1px solid #60bd7e;
+  width: 200px;
+}
 .landing-logo {
   width: 275px;
 }

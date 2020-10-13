@@ -70,7 +70,8 @@ class Resume extends Component {
                   <li>
                     <h5>TSA</h5>
                     <p>
-                      <span>Officer</span>&nbsp; 2011 - 2020
+                      <span className="position">Officer</span>&nbsp; 2011 -
+                      2020
                     </p>
                     <p>
                       Morbi quis turpis pharetra, sagittis erat in, finibus

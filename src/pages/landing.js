@@ -8,6 +8,9 @@ class Landing extends Component {
       <div className="landing-container">
         <Jumbotron fluid className="landing">
           <img className="landing-logo" src={pablologo} alt="branding logo" />
+          <hr />
+          <h2>PABLO HERNANDEZ</h2>
+          <hr />
         </Jumbotron>
       </div>
     );
