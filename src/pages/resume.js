@@ -13,7 +13,7 @@ class Resume extends Component {
             <Col>
               <div className="resume-name">
                 <h1>Pablo Hernandez</h1>
-                {/* <hr /> */}
+
                 <p>
                   pablohdzjr@gmail.com&nbsp;| (832) 904-1663&nbsp;| Houston, TX
                 </p>
@@ -39,17 +39,20 @@ class Resume extends Component {
               </div>
               <div className="progressbar-container">
                 <div className="sidebar-title">SKILLS</div>
-                <Skills skill="HTML/CSS" value={85} />
-                <Skills skill="Javascript" value={75} />
-                <Skills skill="Javascript" value={75} />
-                <Skills skill="Javascript" value={75} />
-                <Skills skill="Javascript" value={100} />
+                <Skills skill="React" value={80} />
+                <Skills skill="jQuery" value={65} />
+                <Skills skill="JavaScript" value={75} />
+                <Skills skill="MongoDB" value={80} />
+                <Skills skill="MySQL" value={75} />
+                <Skills skill="CSS" value={100} />
+                <Skills skill="HTML" value={100} />
+                <Skills skill="Illustrator" value={80} />
                 <div className="sidebar-title">LANGUAGES</div>
-                <Language language="English" value={90} />
-                <Language language="Spanish" value={80} />
+                <Language language="English" value={100} />
+                <Language language="Spanish" value={85} />
               </div>
             </Col>
-            <Col lg={{ span: 6, order: 1 }} xs={{ span: 12, order: 1 }}>
+            <Col lg={{ span: 6, order: 2 }} xs={{ span: 12, order: 1 }}>
               <div>
                 <h3>Objective</h3>
                 <p>
@@ -66,7 +69,9 @@ class Resume extends Component {
                 <ul className="list-unstyled">
                   <li>
                     <h5>TSA</h5>
-                    <p>2011-present</p>
+                    <p>
+                      <span>Officer</span>&nbsp; 2011 - 2020
+                    </p>
                     <p>
                       Morbi quis turpis pharetra, sagittis erat in, finibus
                       eros. Integer ultricies mi ac eros dignissim dapibus.
@@ -76,7 +81,10 @@ class Resume extends Component {
                   </li>
                   <li>
                     <h5>Lackstone</h5>
-                    <p>2010-2011</p>
+                    <p>
+                      <span className="position">Inside Sales Rep</span>&nbsp;
+                      2010 - 2011
+                    </p>
                     <p>
                       Morbi quis turpis pharetra, sagittis erat in, finibus
                       eros. Integer ultricies mi ac eros dignissim dapibus.
@@ -91,6 +99,7 @@ class Resume extends Component {
                 <ul className="list-unstyled">
                   <li>
                     <h6>The University of Texas - Austin,Tx</h6>
+                    <p>Full Stack Web Development</p>
                   </li>
                   <li>
                     <h6>Lone Star College - North Harris</h6>

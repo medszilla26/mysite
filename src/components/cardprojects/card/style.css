@@ -1,22 +1,17 @@
-.card-buttons {
-  margin: 0 40px 0;
-}
-
 .link-btn {
   background: #60bd7e;
   color: white;
   transition: 0.25s ease;
   border: none;
   font-size: 16px;
-  padding: 10px 20px;
-  margin: 4px;
+  padding: 8px 10px;
+  margin: 8px;
   outline: none;
 }
-
 .link-btn:hover {
   color: #60bd7e;
   background-color: transparent;
-  box-shadow: 0 6px 18px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 6px 18px 0 rgba(0, 0, 0, 0.1);
   border: 0.5px solid transparent;
 }
 .link-text {
@@ -24,14 +19,20 @@
   font-size: 16px;
   font-weight: 700;
 }
+.card-buttons {
+  margin: 0 25px;
+}
 .card {
-  margin: 10px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.12);
+  margin: 0 0 10px;
+  border-radius: 0 !important;
+  box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.15);
 }
 .card-title {
   text-align: center;
   font-family: "Lato", sans-serif;
+}
+.card-columns .card {
+  margin-bottom: 30px !important;
 }
 .project-image {
   padding: 5px;

@@ -1,7 +1,8 @@
 .skill-name,
 .language-name {
-  font-size: 14px;
+  font-size: 12px;
   font-family: "Open Sans", sans-serif;
+  /* text-transform: uppercase; */
 }
 
 progress {

@@ -22,7 +22,7 @@ class CardProject extends Component {
             </a>
             <a href={this.props.live} target="blank">
               <button className="link-btn" type="button">
-                LIVE
+                LIVE SITE
               </button>
             </a>
           </div>
