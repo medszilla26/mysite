@@ -7,7 +7,9 @@ class Landing extends Component {
     return (
       <div className="landing-container">
         <Jumbotron fluid className="landing">
-          <img className="landing-logo" src={pablologo} alt="branding logo" />
+          <a href="/about">
+            <img className="landing-logo" src={pablologo} alt="branding logo" />
+          </a>
           <hr />
           <h2>PABLO HERNANDEZ</h2>
           <hr />
