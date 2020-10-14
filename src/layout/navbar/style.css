@@ -20,6 +20,10 @@
   height: auto;
   margin: 10px 4px 10px;
 }
+.logo-navbar:hover {
+  -webkit-filter: blur(1px);
+  filter: blur(1px);
+}
 .brand-name {
   color: #78ec9d;
   font-family: "Lato", sans-serif;

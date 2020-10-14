@@ -2,13 +2,16 @@
 .language-name {
   font-size: 12px;
   font-family: "Open Sans", sans-serif;
-  /* text-transform: uppercase; */
+  margin: 0;
+  padding: 0;
 }
 
 progress {
   border-radius: 7px;
-  width: 30%;
-  height: 13px;
+  width: 45%;
+  height: 12px;
+  margin: 0;
+  padding: 0;
 }
 progress::-webkit-progress-bar {
   background-color: #bed4c4;

@@ -38,7 +38,7 @@ class Resume extends Component {
                 </ul>
               </div>
               <div className="progressbar-container">
-                <div className="sidebar-title">SKILLS</div>
+                <h6>SKILLS</h6>
                 <Skills skill="React" value={80} />
                 <Skills skill="jQuery" value={65} />
                 <Skills skill="JavaScript" value={75} />
@@ -47,7 +47,7 @@ class Resume extends Component {
                 <Skills skill="CSS" value={100} />
                 <Skills skill="HTML" value={100} />
                 <Skills skill="Illustrator" value={80} />
-                <div className="sidebar-title">LANGUAGES</div>
+                <h6>LANGUAGES</h6>
                 <Language language="English" value={100} />
                 <Language language="Spanish" value={85} />
               </div>
