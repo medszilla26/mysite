@@ -94,11 +94,11 @@ class Resume extends Component {
                 <ul className="list-unstyled">
                   <li>
                     <h5>The University of Texas - Austin,Tx</h5>
-                    <h6>Full Stack Web Development</h6>
+                    <h6>Full Stack Web Development - Certification</h6>
                   </li>
                   <li>
                     <h5>Lone Star College - North Harris</h5>
-                    <h6></h6>
+                    <h6>Graphic Design - Certification</h6>
                   </li>
                 </ul>
               </div>

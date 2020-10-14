@@ -134,8 +134,7 @@ p {
   padding: 0;
   margin: 5px 0 5px;
 }
-.work-history > ul > li > h4,
-.education > ul > li > h6 {
+.work-history > ul > li > h4 {
   color: #070707;
   margin: 0;
   padding: 0;
@@ -149,7 +148,14 @@ p {
 .education > ul > li > h5 {
   color: #070707;
   font-family: "Open Sans", sans-serif;
+  margin-top: 0;
   margin-bottom: 0;
+}
+.education > ul > li > h6 {
+  color: #494949;
+  padding: 0;
+  margin-bottom: 6px;
+  font-family: "Lato", sans-serif;
 }
 
 .work-history > p,
