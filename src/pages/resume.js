@@ -11,7 +11,7 @@ class Resume extends Component {
         <Container>
           <Row className="justify-content-center">
             <Col>
-              <div className="resume-name">
+              <div className="resume-header">
                 <h1>Pablo Hernandez</h1>
 
                 <p>
@@ -53,7 +53,7 @@ class Resume extends Component {
               </div>
             </Col>
             <Col lg={{ span: 6, order: 2 }} xs={{ span: 12, order: 1 }}>
-              <div>
+              <div className="objective">
                 <h3>Objective</h3>
                 <p>
                   Morbi quis turpis pharetra, sagittis erat in, finibus eros.
@@ -64,15 +64,12 @@ class Resume extends Component {
                   penatibus.
                 </p>
               </div>
-              <div>
+              <div className="work-history">
                 <h3>Work History</h3>
                 <ul className="list-unstyled">
                   <li>
-                    <h5>TSA</h5>
-                    <p>
-                      <span className="position">Officer</span>&nbsp; 2011 -
-                      2020
-                    </p>
+                    <h4>TSA</h4>
+                    <h5>Officer & Logistics Dept.&nbsp; 2011 - 2020</h5>
                     <p>
                       Morbi quis turpis pharetra, sagittis erat in, finibus
                       eros. Integer ultricies mi ac eros dignissim dapibus.
@@ -81,29 +78,27 @@ class Resume extends Component {
                     </p>
                   </li>
                   <li>
-                    <h5>Lackstone</h5>
+                    <h4>Lackstone</h4>
+                    <h5>Inside Sales Rep&nbsp; 2010 - 2011</h5>
                     <p>
-                      <span className="position">Inside Sales Rep</span>&nbsp;
-                      2010 - 2011
-                    </p>
-                    <p>
-                      Morbi quis turpis pharetra, sagittis erat in, finibus
-                      eros. Integer ultricies mi ac eros dignissim dapibus.
-                      Nulla tortor ante, consectetur at porta ut, aliquam vitae
-                      libero. Donec cursus.
+                      Responsible for opening and setting up shop. Created
+                      personal connections with homeowners, homebuilders and
+                      subcontractors. Participated in weekly meetings to discuss
+                      team goals
                     </p>
                   </li>
                 </ul>
               </div>
-              <div>
+              <div className="education">
                 <h3>Education</h3>
                 <ul className="list-unstyled">
                   <li>
-                    <h6>The University of Texas - Austin,Tx</h6>
-                    <p>Full Stack Web Development</p>
+                    <h5>The University of Texas - Austin,Tx</h5>
+                    <h6>Full Stack Web Development</h6>
                   </li>
                   <li>
-                    <h6>Lone Star College - North Harris</h6>
+                    <h5>Lone Star College - North Harris</h5>
+                    <h6></h6>
                   </li>
                 </ul>
               </div>

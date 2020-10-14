@@ -1,6 +1,5 @@
 /* FONTS USED
-font-family: 'Lato', sans-serif;
-font-family: 'Open Sans', sans-serif; */
+Helvetica, Lato, Open Sans */
 
 /* GLOBAL */
 .landing-container,
@@ -12,7 +11,7 @@ font-family: 'Open Sans', sans-serif; */
 }
 .page-container,
 .notfound-container {
-  background-color: #f2f2f2;
+  background-color: #dadada;
   padding-bottom: 180px;
 }
 .contact,
@@ -38,10 +37,12 @@ font-family: 'Open Sans', sans-serif; */
 }
 .landing > hr {
   border: 1px solid #60bd7e;
+  border-radius: 20px;
   width: 200px;
 }
 .landing-logo {
   width: 275px;
+  margin-bottom: 10px;
 }
 .landing-logo:hover {
   -webkit-filter: blur(2px);
@@ -67,6 +68,7 @@ p {
   width: 300px;
   height: auto;
   padding: 5px 5px 30px;
+  background-color: #f3f3f3;
   border: solid 1px #efefef;
   box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.12);
 }
@@ -107,26 +109,55 @@ p {
 }
 
 /* RESUME PAGE */
-.resume-name {
+.resume-header {
   background-color: rgb(174, 221, 174);
   height: 120px;
+  text-align: center;
   margin-bottom: 40px;
 }
-.resume-name > h1 {
+.resume-header > h1 {
   color: #305e3f;
   font-family: "Lato", sans-serif;
   font-size: 44px;
   padding-top: 15px;
   margin: 40px 0 0px;
 }
-.resume-name > p {
+.resume-header > p {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   margin: 4px 0 10px;
 }
-.resume-name {
-  text-align: center;
+.work-history > h3,
+.objective > h3,
+.education > h3 {
+  font-family: "Lato", sans-serif;
+  padding: 0;
+  margin: 5px 0 5px;
 }
+.work-history > ul > li > h4,
+.education > ul > li > h6 {
+  color: #070707;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+.work-history > ul > li > h5 {
+  font-family: "Open Sans", sans-serif;
+  color: #494949;
+  margin-bottom: 2px;
+}
+.education > ul > li > h5 {
+  color: #070707;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 0;
+}
+
+.work-history > p,
+.objective > p {
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 12px;
+}
+
 .sidebar-socials {
   margin-top: 60px;
 }
