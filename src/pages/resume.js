@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import resumedoc from "../assets/portfolio/resume.pdf";
 import Skills from "../components/progressbar/skill";
 import Language from "../components/progressbar/language";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -54,7 +55,7 @@ class Resume extends Component {
             </Col>
             <Col lg={{ span: 6, order: 2 }} xs={{ span: 12, order: 1 }}>
               <div className="objective">
-                <h3>Profile</h3>
+                <h3>Objective</h3>
                 <p>
                   Recently graduated full stack developer with a keen eye in
                   graphic design. Looking to join a team where opportunity for
@@ -117,6 +118,12 @@ class Resume extends Component {
               </div>
             </Col>
           </Row>
+          <a href={resumedoc} download="pabloh-resume">
+            <button className="resume-btn" type="button">
+              <FontAwesomeIcon icon={["fas", "file-download"]} />
+              &nbsp; DOWNLOAD RESUME
+            </button>
+          </a>
         </Container>
       </div>
     );

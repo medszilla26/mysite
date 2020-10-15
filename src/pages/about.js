@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import portrait from "../assets/photos/pablohdz.jpeg";
+import resumedoc from "../assets/portfolio/resume.pdf";
 import { Container, Row, Col } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -21,7 +22,7 @@ class About extends Component {
                   design.
                 </p>
               </div>
-              <a target="blank">
+              <a href={resumedoc} download="pabloh-resume">
                 <button className="resume-btn" type="button">
                   <FontAwesomeIcon icon={["fas", "file-download"]} />
                   &nbsp; DOWNLOAD RESUME
