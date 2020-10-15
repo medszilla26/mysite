@@ -47,7 +47,7 @@ class Resume extends Component {
                 <Skills skill="MySQL" value={75} />
                 <Skills skill="CSS" value={100} />
                 <Skills skill="HTML5" value={100} />
-                <Skills skill="Illustrator" value={80} />
+                <Skills skill="Illustrator" value={85} />
                 <h6>LANGUAGES</h6>
                 <Language language="English" value={100} />
                 <Language language="Spanish" value={85} />
