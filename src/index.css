@@ -136,31 +136,31 @@ p {
 }
 .work-history > ul > li > h4 {
   color: #070707;
-  margin: 0 0 0 4px;
+  margin: 0 0 0 6px;
   padding: 0;
   font-family: "Lato", sans-serif;
 }
 .work-history > ul > li > h5 {
   font-family: "Open Sans", sans-serif;
   color: #494949;
-  margin: 0 0 0 10px;
+  margin: 0 0 0 12px;
 }
 .education > ul > li > h5 {
   color: #070707;
   font-family: "Open Sans", sans-serif;
-  margin: 0 0 0 4px;
+  margin: 0 0 0 6px;
 }
 .education > ul > li > h6 {
   color: #494949;
   padding: 0;
-  margin: 0 0 6px 10px;
+  margin: 0 0 6px 16px;
   font-family: "Lato", sans-serif;
 }
 
 .work-history > ul > li > p,
 .objective > p {
   font-family: "Open Sans", sans-serif;
-  margin: 0 0 12px 10px;
+  margin: 0 10px 12px 12px;
 }
 
 .sidebar-socials {

@@ -56,12 +56,8 @@ class Resume extends Component {
               <div className="objective">
                 <h3>Objective</h3>
                 <p>
-                  Morbi quis turpis pharetra, sagittis erat in, finibus eros.
-                  Integer ultricies mi ac eros dignissim dapibus. Nulla tortor
-                  ante, consectetur at porta ut, aliquam vitae libero. Donec
-                  cursus, augue ut facilisis tincidunt, nibh nulla facilisis
-                  odio, vitae mattis quam ipsum sed nisi. Orci varius natoque
-                  penatibus.
+                  To obtain a responsible and challenging Front-End Developer
+                  position where I can utilize
                 </p>
               </div>
               <div className="work-history">
@@ -70,22 +66,38 @@ class Resume extends Component {
                   <li>
                     <h4>TSA</h4>
                     <h5>Officer & Logistics Dept.&nbsp; 2011 - 2020</h5>
-                    <p>
-                      Morbi quis turpis pharetra, sagittis erat in, finibus
-                      eros. Integer ultricies mi ac eros dignissim dapibus.
-                      Nulla tortor ante, consectetur at porta ut, aliquam vitae
-                      libero. Donec cursus.
-                    </p>
+                    <ul>
+                      <li>
+                        Communicated daily briefings to crew before and after
+                        shifts.
+                      </li>
+                      <li>
+                        Maintained a calm and professional demeanor during
+                        stressful encounters with passengers.
+                      </li>
+                      <li>
+                        Effectively and efficiently relayed critical information
+                        to passengers and coworkers.
+                      </li>
+                    </ul>
                   </li>
                   <li>
                     <h4>Lackstone</h4>
                     <h5>Inside Sales Rep&nbsp; 2010 - 2011</h5>
-                    <p>
-                      Responsible for opening and setting up shop. Created
-                      personal connections with homeowners, homebuilders and
-                      subcontractors. Participated in weekly meetings to discuss
-                      team goals
-                    </p>
+                    <ul>
+                      <li> Responsible for opening and setting up shop.</li>
+                      <li>
+                        Created personal connections with homeowners,
+                        homebuilders and subcontractors.
+                      </li>
+                      <li>
+                        Participated in weekly meetings to discuss team goals.
+                      </li>
+                      <li>
+                        Worked with team members to facilitate calls, mananged
+                        work flow and maximized client relationships.
+                      </li>
+                    </ul>
                   </li>
                 </ul>
               </div>
