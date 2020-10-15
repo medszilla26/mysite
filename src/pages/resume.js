@@ -45,7 +45,7 @@ class Resume extends Component {
                 <Skills skill="MongoDB" value={80} />
                 <Skills skill="MySQL" value={75} />
                 <Skills skill="CSS" value={100} />
-                <Skills skill="HTML" value={100} />
+                <Skills skill="HTML5" value={100} />
                 <Skills skill="Illustrator" value={80} />
                 <h6>LANGUAGES</h6>
                 <Language language="English" value={100} />
@@ -54,10 +54,11 @@ class Resume extends Component {
             </Col>
             <Col lg={{ span: 6, order: 2 }} xs={{ span: 12, order: 1 }}>
               <div className="objective">
-                <h3>Objective</h3>
+                <h3>Profile</h3>
                 <p>
-                  To obtain a responsible and challenging Front-End Developer
-                  position where I can utilize
+                  Recently graduated full stack developer with a keen eye in
+                  graphic design. Looking to join a team where opportunity for
+                  growth and professional development is encouraged.
                 </p>
               </div>
               <div className="work-history">
