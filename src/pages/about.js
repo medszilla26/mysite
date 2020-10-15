@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import portrait from "../assets/photos/pablo-self.png";
+import portrait from "../assets/photos/pablohdz.jpeg";
 import { Container, Row, Col } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
