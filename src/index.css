@@ -2,7 +2,7 @@
 Helvetica, Lato, Open Sans */
 
 /* GLOBAL */
-.landing-container,
+.home-container,
 .page-container,
 .notfound-container {
   max-width: 100%;
@@ -21,30 +21,30 @@ Helvetica, Lato, Open Sans */
   margin-top: 80px;
 }
 
-/* LANDING PAGE */
-.landing-container {
+/* HOME PAGE */
+.home-container {
   background-color: #070707;
 }
-.landing {
+.home {
   background-color: #070707 !important;
-  margin-top: 150px;
+  margin-top: 130px;
   text-align: center;
 }
-.landing > h2 {
+.home > h2 {
   font-family: Helvetica, sans-serif;
   font-weight: bold;
   color: #60bd7e;
 }
-.landing > hr {
+.home > hr {
   border: 1px solid #60bd7e;
   border-radius: 20px;
-  width: 315px;
+  width: 270px;
 }
-.landing-logo {
+.branding-logo {
   width: 275px;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
-.landing-logo:hover {
+.branding-logo:hover {
   -webkit-filter: blur(2px);
   filter: blur(2px);
 }

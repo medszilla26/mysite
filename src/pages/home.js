@@ -2,13 +2,17 @@ import React, { Component } from "react";
 import { Jumbotron } from "react-bootstrap";
 import pablologo from "../assets/branding/pablo-logo.png";
 
-class Landing extends Component {
+class Home extends Component {
   render() {
     return (
-      <div className="landing-container">
-        <Jumbotron fluid className="landing">
+      <div className="home-container">
+        <Jumbotron fluid className="home">
           <a href="/about">
-            <img className="landing-logo" src={pablologo} alt="branding logo" />
+            <img
+              className="branding-logo"
+              src={pablologo}
+              alt="branding logo"
+            />
           </a>
           <hr />
           <h2>PABLO HERNANDEZ</h2>
@@ -18,4 +22,4 @@ class Landing extends Component {
     );
   }
 }
-export default Landing;
+export default Home;

@@ -1,17 +1,21 @@
 import React from "react";
 import Routes from "./routes";
 import Navigation from "./layout/navbar";
-
+import Footer from "./layout/footer";
+import { BrowserRouter as Router } from "react-router-dom";
 import "./index.css";
-
+import "./components/fontawesomeicons";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
-    <div>
-      <Navigation />
-      <Routes />
-    </div>
+    <Router>
+      <div>
+        <Navigation />
+        <Routes />
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
