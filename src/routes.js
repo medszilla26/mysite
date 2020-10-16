@@ -1,5 +1,5 @@
 import React from "react";
-import { Switch, Route } from "react-router-dom";
+import { Switch, Route, Redirect } from "react-router-dom";
 import About from "./pages/about";
 import Contact from "./pages/contact";
 import Landing from "./pages/landing";
@@ -11,7 +11,10 @@ class Routes extends React.Component {
   render() {
     return (
       <Switch>
-        <Route exact path="/" component={Landing}></Route>
+        <Route exact path="/">
+          <Redirect to="/Landing" />
+        </Route>
+        <Route exact path="/landing" component={Landing}></Route>
         <Route exact path="/about" component={About}></Route>
         <Route exact path="/contact" component={Contact}></Route>
         <Route exact path="/portfolio" component={Portfolio}></Route>
