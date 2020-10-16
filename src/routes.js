@@ -11,24 +11,12 @@ class Routes extends React.Component {
   render() {
     return (
       <Switch>
-        <Route exact path="/">
-          <Landing />
-        </Route>
-        <Route exact path="/about">
-          <About />
-        </Route>
-        <Route exact path="/contact">
-          <Contact />
-        </Route>
-        <Route exact path="/portfolio">
-          <Portfolio />
-        </Route>
-        <Route exact path="/resume">
-          <Resume />
-        </Route>
-        <Route>
-          <NotFound />
-        </Route>
+        <Route exact path="/" component={Landing}></Route>
+        <Route exact path="/about" component={About}></Route>
+        <Route exact path="/contact" component={Contact}></Route>
+        <Route exact path="/portfolio" component={Portfolio}></Route>
+        <Route exact path="/resume" component={Resume}></Route>
+        <Route component={NotFound}></Route>
       </Switch>
     );
   }
