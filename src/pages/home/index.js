@@ -1,6 +1,7 @@
 import React, { Component } from "react";
+import "./style.css";
 import { Jumbotron } from "react-bootstrap";
-import pablologo from "../assets/branding/pablo-logo.png";
+import pablologo from "../../assets/branding/pablo-logo.png";
 
 class Home extends Component {
   render() {

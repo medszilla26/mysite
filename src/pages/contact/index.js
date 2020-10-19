@@ -1,6 +1,7 @@
 import React, { Component } from "react";
+import "./style.css";
 import { Container, Row, Col } from "react-bootstrap";
-import MyForm from "../components/form/myForm";
+import MyForm from "../../components/form/myForm";
 
 class Contact extends Component {
   render() {

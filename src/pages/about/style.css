@@ -1,0 +1,22 @@
+.aboutme > h1 {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+}
+.aboutme > h6,
+p {
+  font-family: "Open Sans", sans-serif;
+}
+.aboutme > h6 {
+  color: gray;
+}
+.portrait-photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+  height: auto;
+  padding: 6px;
+  background-color: #f3f3f3;
+  border: solid 1px #efefef;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.12);
+}

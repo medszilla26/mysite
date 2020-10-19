@@ -1,8 +1,9 @@
 import React, { Component } from "react";
-import portrait from "../assets/photos/pablohdz.jpeg";
-import resumedoc from "../assets/portfolio/resume.pdf";
+import "./style.css";
 import { Container, Row, Col } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import portrait from "../../assets/photos/pablohdz.jpeg";
+import resumedoc from "../../assets/portfolio/resume.pdf";
 
 class About extends Component {
   render() {

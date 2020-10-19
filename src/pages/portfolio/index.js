@@ -1,6 +1,7 @@
 import React, { Component } from "react";
+import "./style.css";
 import { CardColumns, Container } from "react-bootstrap";
-import Projects from "../components/cardprojects";
+import Projects from "../../components/cardprojects";
 
 class Portfolio extends Component {
   render() {

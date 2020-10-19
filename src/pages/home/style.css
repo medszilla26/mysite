@@ -1,0 +1,26 @@
+.home-container {
+  background-color: #070707;
+}
+.home {
+  background-color: #070707 !important;
+  margin-top: 130px;
+  text-align: center;
+}
+.home > h2 {
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  color: #60bd7e;
+}
+.home > hr {
+  border: 1px solid #60bd7e;
+  border-radius: 20px;
+  width: 270px;
+}
+.branding-logo {
+  width: 275px;
+  margin-bottom: 25px;
+}
+.branding-logo:hover {
+  -webkit-filter: blur(2px);
+  filter: blur(2px);
+}

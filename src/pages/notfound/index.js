@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./style.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Jumbotron } from "react-bootstrap";
 

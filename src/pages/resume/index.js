@@ -1,7 +1,8 @@
 import React, { Component } from "react";
-import resumedoc from "../assets/portfolio/resume.pdf";
-import Skills from "../components/progressbar/skill";
-import Language from "../components/progressbar/language";
+import "./style.css";
+import resumedoc from "../../assets/portfolio/resume.pdf";
+import Skills from "../../components/progressbar/skill";
+import Language from "../../components/progressbar/language";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Container, Row, Col } from "react-bootstrap";
 
