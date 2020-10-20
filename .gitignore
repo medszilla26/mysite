@@ -2,7 +2,7 @@
 
 # dependencies
 /node_modules
-.procfile
+procfile
 /.pnp
 .pnp.js
 
