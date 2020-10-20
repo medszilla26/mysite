@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import "./style.css";
 import resumedoc from "../../assets/portfolio/resume.pdf";
-import Skills from "../../components/progressbar/skill";
-import Language from "../../components/progressbar/language";
+import ProgressBar from "../../components/progbar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Container, Row, Col } from "react-bootstrap";
 
@@ -41,17 +40,17 @@ class Resume extends Component {
               </div>
               <div className="progressbar-container">
                 <h6>SKILLS</h6>
-                <Skills skill="React" value={80} />
-                <Skills skill="jQuery" value={65} />
-                <Skills skill="JavaScript" value={75} />
-                <Skills skill="MongoDB" value={80} />
-                <Skills skill="MySQL" value={75} />
-                <Skills skill="CSS" value={100} />
-                <Skills skill="HTML5" value={100} />
-                <Skills skill="Illustrator" value={85} />
+                <ProgressBar name="React" value={80} />
+                <ProgressBar name="jQuery" value={65} />
+                <ProgressBar name="JavaScript" value={75} />
+                <ProgressBar name="MongoDB" value={80} />
+                <ProgressBar name="MySQL" value={75} />
+                <ProgressBar name="CSS" value={100} />
+                <ProgressBar name="HTML5" value={100} />
+                <ProgressBar name="Illustrator" value={85} />
                 <h6>LANGUAGES</h6>
-                <Language language="English" value={100} />
-                <Language language="Spanish" value={85} />
+                <ProgressBar name="English" value={100} />
+                <ProgressBar name="Spanish" value={85} />
               </div>
             </Col>
             <Col lg={{ span: 6, order: 2 }} xs={{ span: 12, order: 1 }}>

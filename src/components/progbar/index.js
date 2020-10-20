@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import "./style.css";
 
-class Language extends Component {
+class ProgressBar extends Component {
   render() {
     return (
       <div>
-        <div className="language-name">
-          {this.props.language}
+        <div className="name">
+          {this.props.name}
           {""}
         </div>
         <progress value={this.props.value} max="100" />
@@ -14,4 +14,4 @@ class Language extends Component {
     );
   }
 }
-export default Language;
+export default ProgressBar;
