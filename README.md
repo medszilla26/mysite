@@ -10,7 +10,7 @@ https://pablo-reactsite.herokuapp.com/
 
 ## Description
 
-Personal portfolio site to display my current work along with information on how to contact me. Project was created with React and deplyed via Heroku
+Personal portfolio site to display my current work along with information on how to contact me. Project was created with React and deployed via Heroku.
 
 ## Table of Contents
 
