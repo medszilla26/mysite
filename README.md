@@ -10,11 +10,12 @@ https://pablo-reactsite.herokuapp.com/
 
 ## Description
 
-Personal portfolio site to display my current work along with information on how to contact me. Project was created with React and deployed via Heroku.
+Personal portfolio site to display my current work along with information on how to contact me. Project was created utilizing React, Formspree, Bootstrap and deployed via Heroku. Branding logo was created with Affinity Designer.
 
 ## Table of Contents
 
 - [Description](#description)
+- [Technologies](#technologies)
 - [License](#license)
 - [Questions](#questions)
 
