@@ -6,7 +6,7 @@ https://pablo-reactsite.herokuapp.com/
 
 ## Sample Video
 
-<iframe src="https://giphy.com/embed/vkmkjCkckKvcUPHlfq" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/vkmkjCkckKvcUPHlfq">via GIPHY</a></p>
+![Alt Text](./src/assets/portfolio/pablo-site.gif)`
 
 ## Description
 
