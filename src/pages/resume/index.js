@@ -55,7 +55,7 @@ class Resume extends Component {
             </Col>
             <Col lg={{ span: 6, order: 2 }} xs={{ span: 12, order: 1 }}>
               <div className="objective">
-                <h3>Objective</h3>
+                <h3>Summary</h3>
                 <p>
                   Recently graduated full stack developer with a keen eye in
                   graphic design. Looking to join a team where opportunity for
@@ -63,24 +63,24 @@ class Resume extends Component {
                 </p>
               </div>
               <div className="work-history">
-                <h3>Work History</h3>
+                <h3>Experience</h3>
                 <ul className="list-unstyled">
                   <li>
-                    <h4>TSA</h4>
-                    <h5>Officer & Logistics Dept.&nbsp; 2011 - 2020</h5>
+                    <h4>Department of Homeland Security</h4>
+                    <h5>
+                      Transportation Security Officer&nbsp; 2011 - present
+                    </h5>
                     <ul>
                       <li>
-                        Communicated daily briefings to crew before and after
-                        shifts.
+                        Coached new hired officers, provided on the job training
+                        and feedback on standard operating procedures and job
+                        performance.
                       </li>
                       <li>
-                        Maintained a calm and professional demeanor during
-                        stressful encounters with passengers.
+                        Performed daily maintenance of various operating
+                        equipment critical to everyday screening.
                       </li>
-                      <li>
-                        Effectively and efficiently relayed critical information
-                        to passengers and coworkers.
-                      </li>
+                      <li></li>
                     </ul>
                   </li>
                   <li>
