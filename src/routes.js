@@ -6,7 +6,7 @@ import Contact from "./pages/contact";
 import Portfolio from "./pages/portfolio";
 import Resume from "./pages/resume";
 import NotFound from "./pages/notfound";
-import Resume2 from "./pages/resume-remake";
+import Resume2 from "./pages/resume2/resume-remake";
 
 class Routes extends React.Component {
   render() {
