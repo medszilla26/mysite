@@ -66,26 +66,24 @@ class Resume2 extends Component {
                   <li>
                     <h5>Transportation Security Officer</h5>
                     <h6>
-                      Department of Homeland Security - Houston, TX &middot;
-                      2011-present
+                      Department of Homeland Security &nbsp; Houston, TX
+                      &middot; 2011-2020
                     </h6>
                     <ul>
                       <li>one</li>
                       <li>two</li>
-                      <li>three</li>
                     </ul>
-                    <li>
-                      <h5>Inside Sales Rep</h5>
-                      <h6>
-                        Lackstone Granite & Marble - Houston, TX &middot;
-                        2010-2011
-                      </h6>
-                      <ul>
-                        <li>one</li>
-                        <li>two</li>
-                        <li>three</li>
-                      </ul>
-                    </li>
+                  </li>
+                  <li>
+                    <h5>Inside Sales Rep</h5>
+                    <h6>
+                      Lackstone Granite & Marble &nbsp; Houston, TX &middot;
+                      2010-2011
+                    </h6>
+                    <ul>
+                      <li>one</li>
+                      <li>two</li>
+                    </ul>
                   </li>
                 </ul>
               </div>
