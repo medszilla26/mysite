@@ -23,32 +23,50 @@ class Resume extends Component {
           </Row>
           <Row>
             <Col lg={{ span: 4, order: 1 }} xs={{ span: 12, order: 2 }}>
-              <div className="sidebar">
-                <ul className="list-unstyled">
-                  <FontAwesomeIcon icon={["fab", "github-alt"]} />
-                  <li>github.com/medszilla26</li>
-                  <FontAwesomeIcon icon={["fab", "linkedin-in"]} />
-                  <li>linkedin.com/in/pablohdzjr</li>
-                  <FontAwesomeIcon icon={["fas", "briefcase"]} />
-                  <li>pablo-reactsite.herokuapp.com</li>
-                </ul>
+              <div className="sidebar-box">
+                <div className="sidebar-contacts">
+                  <ul className="list-unstyled">
+                    <FontAwesomeIcon
+                      icon={["fab", "github-alt"]}
+                      className="sidebar-ico"
+                    />
+                    <li>github.com/medszilla26</li>
+                    <FontAwesomeIcon
+                      icon={["fab", "linkedin-in"]}
+                      className="sidebar-ico"
+                    />
+                    <li>linkedin.com/in/pablohdzjr</li>
+                    <FontAwesomeIcon
+                      icon={["fas", "briefcase"]}
+                      className="sidebar-ico"
+                    />
+                    <li>pablo-reactsite.herokuapp.com</li>
+                  </ul>
+                </div>
+                <div className="progress-container">
+                  <h6>SKILLS</h6>
+                  <ProgressBar name="HTML5" value={80} />
+                  <ProgressBar name="CSS3" value={80} />
+                  <ProgressBar name="JavaScript" value={80} />
+                  <ProgressBar name="React" value={80} />
+                  <ProgressBar name="Bootstrap" value={80} />
+                  <ProgressBar name="Foundation" value={80} />
+                  <ProgressBar name="JQuery" value={80} />
+                  <ProgressBar name="MongoDB" value={80} />
+                  <ProgressBar name="MySQL" value={80} />
+                  <h6>LANGUAGES</h6>
+                  <ProgressBar name="English" value={100} />
+                  <ProgressBar name="Spanish" value={90} />
+                </div>
               </div>
-              <div className="progress-container">
-                <h6>SKILLS</h6>
-                <ProgressBar name="HTML5" value={80} />
-                <ProgressBar name="CSS3" value={80} />
-                <ProgressBar name="JavaScript" value={80} />
-                <ProgressBar name="React" value={80} />
-                <ProgressBar name="Bootstrap" value={80} />
-                <ProgressBar name="Foundation" value={80} />
-                <ProgressBar name="JQuery" value={80} />
-                <ProgressBar name="MongoDB" value={80} />
-                <ProgressBar name="MySQL" value={80} />
-                <h6>LANGUAGES</h6>
-                <ProgressBar name="English" value={100} />
-                <ProgressBar name="Spanish" value={90} />
-              </div>
+              <a download="pabloh-resume">
+                <button className="resume-btn" type="button">
+                  <FontAwesomeIcon icon={["fas", "file-download"]} />
+                  &nbsp; DOWNLOAD RESUME
+                </button>
+              </a>
             </Col>
+
             <Col lg={{ span: 6, order: 2 }} xs={{ span: 12, order: 1 }}>
               <div className="summary">
                 <h3>Summary</h3>
@@ -147,12 +165,6 @@ class Resume extends Component {
               </div>
             </Col>
           </Row>
-          <a download="pabloh-resume">
-            <button className="resume-btn" type="button">
-              <FontAwesomeIcon icon={["fas", "file-download"]} />
-              &nbsp; DOWNLOAD RESUME
-            </button>
-          </a>
         </Container>
       </div>
     );
