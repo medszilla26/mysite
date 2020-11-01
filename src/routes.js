@@ -6,7 +6,6 @@ import Contact from "./pages/contact";
 import Portfolio from "./pages/portfolio";
 import Resume from "./pages/resume";
 import NotFound from "./pages/notfound";
-import Resume2 from "./pages/resume2/resume-remake";
 
 class Routes extends React.Component {
   render() {
@@ -18,7 +17,6 @@ class Routes extends React.Component {
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/portfolio" component={Portfolio} />
         <Route exact path="/resume" component={Resume} />
-        <Route exact path="/resume2" component={Resume2} />
         <Route component={NotFound} />
       </Switch>
     );

@@ -23,7 +23,6 @@ class Navigation extends Component {
               <Nav.Link href="/portfolio">My Work</Nav.Link>
               <Nav.Link href="/contact">Contact Me</Nav.Link>
               <Nav.Link href="/resume">Resume</Nav.Link>
-              <Nav.Link href="/resume2">New Resume</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
