@@ -84,6 +84,7 @@ class Resume extends Component {
                         professional and calm demeanor during stressful
                         encounters with passengers.
                       </li>
+                      <br />
                     </ul>
                   </li>
                   <li>
@@ -99,6 +100,7 @@ class Resume extends Component {
                       <li>two</li>
                     </ul>
                   </li>
+                  <br />
                 </ul>
               </div>
               <div className="education">
