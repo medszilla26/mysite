@@ -13,7 +13,9 @@ class Resume extends Component {
           <Row className="justify-content-center">
             <Col>
               <div className="resume-header">
-                <h1>Pablo Hernandez</h1>
+                <h1>
+                  <b>Pablo Hernandez</b>
+                </h1>
                 <p>
                   (832) 904-1663 &nbsp;|&nbsp; pablohdzjr@gmail.com
                   &nbsp;|&nbsp; Houston, Texas
@@ -114,8 +116,20 @@ class Resume extends Component {
                       &mdash; Houston, TX &middot; 2010-2011
                     </h6>
                     <ul>
-                      <li>one</li>
-                      <li>two</li>
+                      <li>
+                        Contacted existing builders and designers to promote
+                        newly stocked product which in turn contributed to
+                        positive sales.
+                      </li>
+                      <li>
+                        Provided excellent customer service. Collected all
+                        relative information to ensure builder gets right
+                        materials chosen by customer and/or designer.
+                      </li>
+                      <li>
+                        Managed to achieve weekly sales goal by securing an
+                        account with a new design firm.
+                      </li>
                     </ul>
                   </li>
                   <br />
@@ -138,7 +152,8 @@ class Resume extends Component {
                           and group projects gaining experience in full-stack
                           web development. Developed skills in Javascript,
                           MongoDB, MySQL, Express, React, Bootstrap, Foundation,
-                          HTML5 and CSS3.
+                          HTML5 and CSS3. Obtained excellent teamwork experience
+                          by creating web applications in a group setting.
                         </p>
                       </li>
                     </ul>

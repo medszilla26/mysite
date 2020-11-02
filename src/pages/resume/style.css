@@ -1,12 +1,11 @@
 .resume-header {
-  background-color: white;
   height: 120px;
   text-align: center;
   padding-top: 15px;
-  margin: 40px 0 30px;
+  margin: 40px 0 5px;
 }
 .sidebar-box {
-  background-color: white;
+  background-color: #d3d3d3;
   padding: 15px;
   width: 280px;
   margin-bottom: 10px;
@@ -20,7 +19,7 @@
   margin: 0;
 }
 .sidebar-contacts {
-  margin-top: 50px;
+  margin-top: 10px;
   font-family: "Open Sans", sans-serif;
 }
 .sidebar-ico {
