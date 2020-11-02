@@ -17,9 +17,9 @@ class Resume extends Component {
                   <b>Pablo Hernandez</b>
                 </h1>
                 <p>
-                  (832) 904-1663 &nbsp;|&nbsp; pablohdzjr@gmail.com
-                  &nbsp;|&nbsp; Houston, Texas
+                  (832) 904-1663 &nbsp; &middot; &nbsp; pablohdzjr@gmail.com
                 </p>
+                <p>Houston, Texas</p>
               </div>
             </Col>
           </Row>
@@ -45,7 +45,7 @@ class Resume extends Component {
                     <li>pablo-reactsite.herokuapp.com</li>
                   </ul>
                 </div>
-                <div className="progress-container">
+                <div className="progressbar-section">
                   <h6>SKILLS</h6>
                   <ProgressBar name="HTML5" value={80} />
                   <ProgressBar name="CSS3" value={80} />
@@ -122,13 +122,13 @@ class Resume extends Component {
                         positive sales.
                       </li>
                       <li>
-                        Provided excellent customer service. Collected all
-                        relative information to ensure builder gets right
-                        materials chosen by customer and/or designer.
+                        Managed to achieve weekly sales goal by securing an
+                        account with a single new design firm.
                       </li>
                       <li>
-                        Managed to achieve weekly sales goal by securing an
-                        account with a new design firm.
+                        Provided excellent customer service. Collected all
+                        relative information to ensure builders get exact
+                        materials chosen by customers and/or designers.
                       </li>
                     </ul>
                   </li>

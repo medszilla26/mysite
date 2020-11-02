@@ -40,7 +40,7 @@ function Footer() {
         <Row>
           <Col className="footer-bottom">
             <p className="footer-copyright text-muted">
-              Copyright &copy; {new Date().getFullYear()} Pablo Hernandez Jr
+              Copyright &copy; {new Date().getFullYear()} Pablo Hernandez
             </p>
           </Col>
         </Row>
