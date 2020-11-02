@@ -24,7 +24,7 @@ class About extends Component {
                 </p>
               </div>
               <a href={resumedoc} download="pabloh-resume">
-                <button className="resume-btn" type="button">
+                <button className="download-btn" type="button">
                   <FontAwesomeIcon icon={["fas", "file-download"]} />
                   &nbsp; DOWNLOAD RESUME
                 </button>

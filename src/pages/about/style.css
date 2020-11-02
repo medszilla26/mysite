@@ -20,3 +20,18 @@ p {
   border: solid 1px #efefef;
   box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.12);
 }
+.download-btn {
+  background: #60bd7e;
+  color: white;
+  transition: 0.25s ease;
+  border: none;
+  font-size: 16px;
+  padding: 8px 10px;
+  margin: 0;
+}
+.download-btn:hover {
+  color: #60bd7e;
+  background-color: transparent;
+  box-shadow: 0 6px 18px 0 rgba(0, 0, 0, 0.1);
+  border: 0.5px solid transparent;
+}
