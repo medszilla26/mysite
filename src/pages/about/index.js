@@ -3,7 +3,7 @@ import "./style.css";
 import { Container, Row, Col } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import portrait from "../../assets/photos/pablohdz.jpeg";
-import resumedoc from "../../assets/portfolio/resume.pdf";
+import resumepdf from "../../assets/portfolio/resumev2.pdf";
 
 class About extends Component {
   render() {
@@ -23,7 +23,7 @@ class About extends Component {
                   design.
                 </p>
               </div>
-              <a href={resumedoc} download="pabloh-resume">
+              <a href={resumepdf} download="pabloh-resume">
                 <button className="download-btn" type="button">
                   <FontAwesomeIcon icon={["fas", "file-download"]} />
                   &nbsp; DOWNLOAD RESUME

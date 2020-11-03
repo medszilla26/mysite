@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./style.css";
-
+import resumepdf from "../../assets/portfolio/resumev2.pdf";
 import ProgressBar from "../../components/progbar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Container, Row, Col } from "react-bootstrap";
@@ -61,7 +61,7 @@ class Resume extends Component {
                   <ProgressBar name="Spanish" value={90} />
                 </div>
               </div>
-              <a download="pabloh-resume">
+              <a href={resumepdf} download="pabloh-resume">
                 <button className="resume-btn" type="button">
                   <FontAwesomeIcon icon={["fas", "file-download"]} />
                   &nbsp; DOWNLOAD RESUME
@@ -73,9 +73,13 @@ class Resume extends Component {
               <div className="summary">
                 <h3>Summary</h3>
                 <p>
-                  Full Stack Web Developer with a background in Graphic Design
-                  and life-long dedication to learning and adapting to new
-                  applications and technologies.
+                  Current Transportation Security Officer, 9 years of officer
+                  experience with 4 years of training and coaching officers.
+                  Recently completed the University of Texas at Austin’s Full
+                  Stack Web Development Bootcamp program. Seeking to leverage
+                  acquired web development knowledge, team oriented attitude and
+                  graphic design experience to effectively fill a front end
+                  developer position.
                 </p>
               </div>
               <div className="experience">
