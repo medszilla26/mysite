@@ -16,11 +16,13 @@ class About extends Component {
                 <h1>Pablo Hernandez</h1>
                 <h6>Front End Developer</h6>
                 <p>
-                  I'm a Houston based Full Stack Web Developer with a background
-                  in Graphic Design. Recently earned a certification in Full
-                  Stack Development from the University of Texas at Austin, with
-                  newly developed skills in JavaScript, React and responsive web
-                  design.
+                  Current Transportation Security Officer, 9 years of officer
+                  experience with 4 years of training and coaching officers.
+                  Recently completed the University of Texas at Austin’s Full
+                  Stack Web Development Bootcamp program. Seeking to leverage
+                  acquired web development knowledge, team oriented attitude and
+                  graphic design experience to effectively fill a front end
+                  developer position.
                 </p>
               </div>
               <a href={resumepdf} download="pabloh-resume">

@@ -8,12 +8,12 @@
 progress {
   border-radius: 7px;
   width: 60%;
-  height: 12px;
+  height: 10px;
   margin: 0;
   padding: 0;
 }
 progress::-webkit-progress-bar {
-  background-color: #bed4c4;
+  background-color: #c3c3c3;
 }
 progress::-webkit-progress-value {
   background-color: #488e5e;

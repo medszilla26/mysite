@@ -47,15 +47,17 @@ class Resume extends Component {
                 </div>
                 <div className="progressbar-section">
                   <h6>SKILLS</h6>
-                  <ProgressBar name="HTML5" value={80} />
-                  <ProgressBar name="CSS3" value={80} />
-                  <ProgressBar name="JavaScript" value={80} />
+                  <ProgressBar name="HTML5" value={90} />
+                  <ProgressBar name="CSS3" value={90} />
+                  <ProgressBar name="JavaScript" value={75} />
                   <ProgressBar name="React" value={80} />
-                  <ProgressBar name="Bootstrap" value={80} />
+                  <ProgressBar name="Bootstrap" value={85} />
                   <ProgressBar name="Foundation" value={80} />
-                  <ProgressBar name="JQuery" value={80} />
-                  <ProgressBar name="MongoDB" value={80} />
-                  <ProgressBar name="MySQL" value={80} />
+                  <ProgressBar name="JQuery" value={70} />
+                  <ProgressBar name="MongoDB" value={70} />
+                  <ProgressBar name="MySQL" value={65} />
+                  <ProgressBar name="Illustrator" value={90} />
+                  <ProgressBar name="Photoshop" value={85} />
                   <h6>LANGUAGES</h6>
                   <ProgressBar name="English" value={100} />
                   <ProgressBar name="Spanish" value={90} />
